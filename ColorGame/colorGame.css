@@ -1,0 +1,85 @@
+body, button {
+	background-color: #232323;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	margin: 0 0;
+}
+
+h1 {
+	font-size: 42px;
+	line-height: 1.1;
+	color: white;
+	background-color: #a324c9;
+	text-align: center; 
+	padding: 20px 0;
+	margin: 0 0;
+}
+
+#colorDisplay {
+	font-size: 150%;
+}
+
+button {
+	margin: 0 30px;
+	border: none;
+	background: none;
+	height: 100%;
+	font-weight: 700;
+	font-size: inherit;
+	color: #232323;
+	letter-spacing: 1px;
+	outline: none;
+	transition: all 300ms;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+}
+
+button:hover {
+	color: white;
+	background-color: #31b0f5;
+	cursor: pointer; 
+}
+
+
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: all 400ms;
+	-webkit-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+.square:hover {
+	cursor: pointer;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 450px;
+}
+
+#message {
+	display: inline-block;
+	width: 15%;
+	font-weight: 700;
+	font-size: inherit;
+	color: #232323;
+	letter-spacing: 1px;
+}
+
+#stripe {
+	background-color: white;
+	height: 40px;
+	text-align: center;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.selected {
+	background-color: #a275f0;
+	color: white;
+}
